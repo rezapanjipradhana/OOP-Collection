@@ -11,21 +11,21 @@ namespace TugasPolyDanCol
         static void Main(string[] args)
         {
             KaryawanTetap karyawanTetap = new KaryawanTetap();
-            karyawanTetap.Nik = "987-987-987";
-            karyawanTetap.Nama = "Roberto Bilwas";
-            karyawanTetap.GajiBulanan = 9100000;
+            karyawanTetap.Nik = "123-234-345";
+            karyawanTetap.Nama = "Michael Suyama";
+            karyawanTetap.GajiBulanan = 4000000;
 
             KaryawanHarian karyawanHarian = new KaryawanHarian();
-            karyawanHarian.Nik = "897-897-897";
-            karyawanHarian.Nama = "Michael Wanabun";
-            karyawanHarian.JumlahJamKerja = 20;
-            karyawanHarian.UpahPerJam = 6600;
+            karyawanHarian.Nik = "123-321-346";
+            karyawanHarian.Nama = "Laura Callahan";
+            karyawanHarian.JumlahJamKerja = 8;
+            karyawanHarian.UpahPerJam = 13000;
 
             Sales sales = new Sales();
-            sales.Nik = "789-789-789";
-            sales.Nama = "Khsnul Khotimah";
-            sales.JumlahPenjualan = 15;
-            sales.Komisi = 3300;
+            sales.Nik = "123-333-347";
+            sales.Nama = "Andrew Fuller";
+            sales.JumlahPenjualan = 30;
+            sales.Komisi = 45000;
 
             List<Karyawan> listKaryawan = new List<Karyawan>();
 
